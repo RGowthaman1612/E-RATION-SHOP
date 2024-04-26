@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+button {
+  border: 1px solid green;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/836/1010/563/gaussian-background-gray-glow-wallpaper-preview.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+table, th, td {
+  border: 1px solid green;
+}
+table {
+  width: 50%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+th {
+  
+  color: black;
+}
+.imgj{
+ repeat: no-repeat;
+ attachment: fixed;
+ size: 30px 40px;
+ width:120px;
+
+height:120px
+opacity=0.75
+}
+
+</style>
+
+
+  
+<body>
+<image class="imgj" src="https://www.tnrtp.org/wp-content/uploads/2020/06/TN-LOGO-T-.png" alt="logo">
+
+<form action="nphh.php" method="post">
+    <center><h1>TN GOVERNMENT WELCOMES YOU!</h1></center>
+   
+  <br><br>
+    <table><center>
+        <form>
+              <tr>
+ <th></th>
+<th>Maximum Quantity</th>
+<th>Quantity Needed</th>
+              </tr>
+            <tr>
+                <td>
+                    <label for="rice">
+                        Rice
+                    </label>
+                </td>
+<center><td>30</td></center>
+                <td><input type="number" id="rice" name="rice" min="0" max="30" width="100%"  />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Dhaal">
+                        Dhaal
+                    </label>
+                </td>
+<td>2</td>
+                <td><input type="number" id="dhaal" name="dhaal" min="0" max="2"  />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Sugar">
+                        Sugar
+                    </label>
+                </td>
+<td>3</td>
+                <td><input type="number" id="Sugar" name="sugar"min="0" max="3" />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="oil">
+                        Oil
+                    </label>
+                </td>
+<td>1</td>
+                <td><input type="number" id="oil" name="oil" min="0" max="1"/>
+                </td>
+            </tr>
+ <tr>
+                <td><label for="wheat">
+                        Wheat
+                    </label>
+                </td>
+<td>5</td>
+                <td><input type="number" id="wheat" name="wheat" min="0" max="5"/>
+                </td>
+            </tr>
+
+        </form>
+    </center></table>
+<br><br>
+<table>
+<tr><td><br><p>
+Date
+<input id="date" name="date" type="date" required>
+    
+</p></td><td>
+<label>Time slot </label> <br>
+	    <select name="time" id="time"  style="width: 300px;height:40px;border: 2px solid green;" reqiured>
+    <option value="0">Select Time slot:</option>
+    <option value="10.30 am-11.00am">10.30 am-11.00am</option>
+    <option value="12.30 pm-1.00pm">12.30 pm-1.00pm</option>
+    <option value="2.30 pm-3.00pm">2.30 pm-3.00pm</option>
+    <option value="3.30 pm-4.00pm">3.30 pm-4.00pm</option>
+   
+    
+  </select></td>
+
+</table>
+
+<br><br>
+<center><button type="Submit" >Submit</button></center>
+
+</body>
+  
+</html>
